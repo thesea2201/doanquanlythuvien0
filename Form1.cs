@@ -7,14 +7,18 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Configuration;
+using System.Data.SqlClient;
 
 namespace DoAnQuanLyThuvien
 {
-    public partial class Form1 : Form
+    public partial class frmqltv : Form
     {
-        public Form1()
+        public frmqltv()
         {
             InitializeComponent();
         }
+
+     
     }
 }
